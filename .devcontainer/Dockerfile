@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.1.1-base-ubuntu20.04
+FROM nvidia/cuda:12.0.1-cudnn8-runtime-ubuntu22.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 ARG USER=vscode
