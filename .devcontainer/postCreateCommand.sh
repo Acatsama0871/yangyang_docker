@@ -1,9 +1,5 @@
 #!/bin/bash
 
-set -a
-source .devcontainer/.aws_env
-set +a
-
 # poetry source add --default mirrors https://pypi.tuna.tsinghua.edu.cn/simple/ # tsinghua mirror
 export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
 poetry config virtualenvs.in-project true
